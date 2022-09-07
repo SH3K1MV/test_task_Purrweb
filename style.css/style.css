@@ -63,7 +63,7 @@ a {
 }
 
 .header {
-    background-image: url(../img/Bg.png); 
+    background: url(../img/Bg.png) no-repeat center top; 
     background-size: 100%;
 }
 
@@ -141,7 +141,7 @@ li a {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 135px 0 0;
+    padding: 135px 0 50px;
     text-align: center;
 }
 
