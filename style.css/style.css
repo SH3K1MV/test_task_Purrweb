@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Bold.woff') format('woff'),
+    url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../fonts/ProximaNova-Semibold.eot');
+    src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+    url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body::-webkit-scrollbar {
+    width: 0; 
+    padding-right: 3px;
+}
+
+
+body {
+    font-family: 'Proxima Nova Regular' ;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 ,h4, h5, h6 {
+    font-weight: 700;
+    color: #7050E5;
+    font-family: 'Proxima Nova Bold';
+}
+
+p {
+    font-family: 'Proxima Nova Regular';
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    background-image: url(../img/Bg.png); 
+    background-size: 100%;
+}
+
+.headerMenu {
+    width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoSalt {
+    padding-top: 32px;
+}
+
+ul  {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 14px;
+}
+
+.headerInfo {
+    padding-left: 306px;
+    display: flex;
+}
+
+.headerWrap h1 {
+    font-size: 55px;
+    color: #fff;
+    margin: 129px 0 0;
+}
+
+.headerWrap p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 490px;
+    line-height: 30px;
+    padding-bottom: 44px;
+    margin: 0;
+}
+
+.flexSection {
+    display: flex;
+    width: 923px;
+    justify-content: space-between;
+}
+
+.btn {
+    align-items: center;
+    padding: 4px 40px;
+    width: 174px;
+    height: 53px;
+    background: #FF8B00;
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    left: 306px;
+    top: 462px;
+}
+
+.findOutMore {
+    font-size: 15px;
+    width: 116px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 135px 0 0;
+    text-align: center;
+}
+
+.fom {
+    margin-bottom: 19px;
+}
+
+.numbers {
+    display: flex;
+    width: 899px;
+    margin: 0 auto;
+    padding: 133px 0 131px;
+}
+
+.aboutNum {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutNum h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+.aboutNum p {
+    color: #7050E5;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Bold';
+}
+
+#centerNum {
+    margin: 0 92px;
+}
+
+
