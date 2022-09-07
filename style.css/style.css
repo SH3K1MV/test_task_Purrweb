@@ -179,4 +179,60 @@ li a {
     margin: 0 92px;
 }
 
+.action {
+    background: #F8F8F8;
+}
+
+.blockName {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 68px;
+}
+
+.blockName h1 {
+    font-size: 60px;
+    margin: 25px 65px 0 0;
+}
+
+
+.marker {
+    position: absolute;
+}
+
+.companyInfo {
+    width: 999px;
+    padding: 120px 0;
+    margin: 0 auto;
+}
+
+.line {
+    display: flex;
+}
+
+.card {
+    width: 281px;
+    padding-top: 72px;
+    align-items: center;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.card p {
+    font-weight: 400;
+    color: #878787;
+    line-height: 19px;
+}
+
+.center {
+    margin: 0 100px;
+}
 
