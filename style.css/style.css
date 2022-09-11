@@ -98,7 +98,31 @@ span {
 .headerMenu li a {
     color: #fff;
     text-decoration: none;
+    font-size: 15px;
     padding: 0 14px;
+    position: relative;
+}
+
+.headerMenu li a::before {
+    content: '';
+    bottom: -8px;
+    right: 0;
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background: orange;
+    transition: 0.5s;
+    transform: scaleX(0);
+}
+
+.headerMenu li a:hover:before {
+    width: 100%;
+    transform: scaleX(1);
+}
+
+.headerMenu li a:hover {
+    font-size: 16px;
+    transition: all 0.5s;
 }
 
 .headerInfo {
@@ -144,6 +168,13 @@ span {
     top: 462px;
 }
 
+.btn:hover  {
+    width: 180px;
+    transition: all 0.5s;
+    background: #FFA800;
+    transition-timing-function: linear;
+}
+
 .findOutMore {
     font-size: 15px;
     width: 116px;
@@ -154,7 +185,7 @@ span {
     text-align: center;
 }
 
-.fom {
+#fom {
     margin-bottom: 19px;
 }
 
@@ -304,27 +335,27 @@ span {
     font-size: 25px;
 }
 
-.contactUs {
+.contact_us {
     background: url(../img/contbg.jpg) no-repeat center top; 
     background-size: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.contactUs h1 {
+.contact_us h1 {
     color: #fff;
     font-size: 55px;
     line-height: 55px;
     padding: 128px 0 0 200px;
 }
 
-.contactUs h3 {
+.contact_us h3 {
     color: #fff;
     font-size: 28px;
     padding-bottom: 28px;
 }
 
-.contactUs h6 {
+.contact_us h6 {
     color: #fff;
     font-size: 13px;
     padding-bottom: 6px;
