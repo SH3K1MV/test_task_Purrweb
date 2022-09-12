@@ -128,7 +128,14 @@ span {
 .headerInfo {
     padding-left: 306px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.twitter_logo {
+    padding: 226px 371px 0 0;
+}
+
 
 .headerWrap h1 {
     font-size: 55px;
@@ -146,11 +153,6 @@ span {
     margin: 0;
 }
 
-.flexSection {
-    display: flex;
-    width: 923px;
-    justify-content: space-between;
-}
 
 .btn {
     align-items: center;
@@ -161,11 +163,7 @@ span {
     border-radius: 4px;
     font-size: 14px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 10px;
-    left: 306px;
-    top: 462px;
 }
 
 .btn:hover  {
@@ -336,8 +334,8 @@ span {
 }
 
 .contact_us {
-    background: url(../img/contbg.jpg) no-repeat center top; 
-    background-size: 100%;
+    background: url(../img/contbg.jpg) no-repeat;
+    background-size: 100% auto;
     display: flex;
     justify-content: space-between;
 }
@@ -392,7 +390,6 @@ input::placeholder {
 }
 
 .mail input {
-    display: block;
     width: 640px;
 }
 
@@ -503,6 +500,10 @@ textarea::placeholder {
     padding: 16px 0;
 }
 
+.links {
+    display: flex;
+}
+
 .links ul {
     margin: 0;
     display: flex;
@@ -520,6 +521,7 @@ textarea::placeholder {
 .links li {
     flex-direction: column;
     list-style-image: url(../img/marker.svg);
+    width: 110px;
 }
 
 .links li a {
@@ -533,8 +535,22 @@ textarea::placeholder {
     padding: 4px 0;
 }
 
-.centerli {
+.center-li {
     margin: 0 132px;
+    width: 110px;
+}
+
+.cont_sales li {
+    width: 209px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-logo img {
+    margin: 0 38px 38px 0;
 }
 
 .copywright {
@@ -550,3 +566,483 @@ textarea::placeholder {
     padding: 6px 0 7px;
 }
 
+@media screen and (max-width: 1500px) {
+    .findOutMore {
+        padding: 100px 0 50px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .findOutMore {
+        padding: 50px 0 50px;
+    }
+
+    .inputs {
+        padding: 100px 0 0;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .headerInfo {
+        padding-left: 260px;
+    }
+    .inputs {
+        padding: 50px 0 0;
+        margin-right: 0;
+    }
+    .headerWrap h1 {
+        margin: 100px 0 0;
+    }
+}
+
+@media screen and (max-width: 1332px) {
+    .headerWrap h1 {
+        margin: 50px 0 0;
+    }
+    .flexSection img {
+        margin-right: 130px;
+    }
+    .spotlight {
+        width: 1180px;
+    }
+}
+@media screen and (max-width: 1315px) {
+    .headerInfo {
+        padding-left: 170px;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .header {
+        height: 811px;
+        background-size: auto;
+    }
+    .findOutMore {
+        padding: 210px 0 50px;
+    }
+    .twitter_logo {
+        padding: 150px 230px 0 0;
+    }
+    .inputs {
+        padding: 20px 0 0;
+    }
+}
+
+@media screen and (max-width: 1244px) {
+    .twitter_logo {
+        padding: 150px 230px 0 0;
+    }
+
+}
+
+@media screen and (max-width: 1180px) {
+    .header {
+        height: 811px;
+        background-size: auto;
+    }
+    .headerMenu {
+        width: 900px;
+    }
+    .headerInfo {
+        padding-left: 175px;
+    }
+    .twitter_logo {
+        padding: 150px 200px 0 0;
+    }
+    .findOutMore {
+        padding: 200px 0 50px;
+    }
+    .spotlight {
+        width: 1024px;
+    }
+    .video img {
+        width: 530px;
+    }
+    .contact_us {
+        background-size: auto;
+        flex-direction: column;
+    }
+    .contact_us h1 {
+        padding: 40px 0 48px 28px;
+    }
+    .inputs {
+        margin: 0 auto;
+    }
+    .footerwrap {
+        width: 998px;
+    }
+    .center-li {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .findOutMore {
+        padding: 170px 0 50px;
+    }
+    .spotlight {
+        width: 982px;
+    }
+    .infoSpotlight {
+        margin-bottom: 0;
+    }
+    .contact_us {
+        background-size: auto;
+        flex-direction: column;
+    }
+    .contact_us h1 {
+        padding: 40px 0 48px 28px;
+    }
+    .inputs {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logoSalt {
+        width: 60px;
+    }
+    .twitter_logo {
+        padding: 150px 100px 0 0;
+    }
+    .companyInfo {
+        width: 936px;
+    }
+    .footerwrap {
+        flex-direction: column;
+        width: auto;
+    }
+    .twitter {
+        padding-bottom: 60px;
+        margin: 0 auto;
+    }
+    .links {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .headerInfo {
+        padding-left: 28px;
+        flex-direction: column-reverse;
+    }
+    .twitter_logo {
+        padding: 55px 0 0 0;
+    }
+    .findOutMore {
+        padding: 68px 0 0 0;
+    }
+    .blockName {
+        width: 700px;
+    }
+    .spotlight {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .infoSpotlight {
+        width: 455px;
+        margin-top: 100px;
+    }
+    .video {
+        transform: translate(0px, -59px);
+        margin: 0px 0 97px;
+    }
+    .mi {
+        transform: translate(120px, 352px);
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .headerMenu {
+        width: auto;
+    }
+    .logoSalt {
+        margin: 28px 0 0 28px;
+    }
+    .line {
+        flex-direction: column;
+        align-items: center;
+    }
+    .companyInfo {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .numbers {
+        flex-direction: column;
+        padding: 80px 0 100px;
+        align-items: center;
+        width: auto;
+
+    }
+    .aboutNum {
+        width: 264px;;
+    }
+    #centerNum {
+        padding: 68px 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    body.lock {
+        overflow: hidden;
+    }
+
+    .menu-btn {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        z-index: 2;
+        transform: translate(232px, 32px);
+    }
+
+    .logoSalt {
+        z-index: 2;
+    }
+
+    .menu-btn.active span  {
+        background-color: orange;
+        transition: all 0.5s;
+    }
+    
+    .menu-btn span {
+        width: 40px;
+        height: 4px;
+        position: absolute;
+        background-color: #FFFFFF;
+        border-radius: 2px;
+    }
+
+    .menu-btn span:nth-of-type(1) {
+        top:calc(-10px);
+    }
+
+    .menu-btn span:nth-of-type(3) {
+        top:calc(+10px);
+    }
+    
+    .menu ul {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: url(../img/Bg.png) no-repeat center;
+        padding: 10px;
+        margin: 0 auto;
+        align-items: center;
+        transform: translateY(-200%);
+        transition: all 0.5s;
+    }
+    
+    .menu.active ul {
+        transform: translate(0);
+        transition: all 0.5s;
+    }
+    
+    .menu li  {
+        margin: 15px;
+        font-size: 50px;
+    }
+    .blockName {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 713px) {
+    .contact_us {
+        background-color: #232323;
+    }
+
+    .inputs {
+        width: 311px;
+    }
+
+    .inputs h3 {
+        width: 311px;
+        margin: 0 auto;
+    }
+
+    textarea {
+        width: 311px;
+    }
+
+    .name {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .name input {
+        width: 311px;
+        margin-right: 0;
+    }
+
+    .mail {
+        align-items: center;
+        width: 311px;
+        margin: 0 auto;
+    }
+    
+    .mail input {
+        width: 311px;
+    }
+    
+    .message {
+        margin: 0 auto;
+        width: 311px;
+    }
+    
+    .message textarea {
+        width: 311px;
+    }
+
+    .send {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .navigation_links {
+        margin-left: 130px;
+    }
+
+    .cont_sales {
+        margin: 0 auto;
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .logoSalt {
+        width: 39px;
+    }
+
+    .menu-btn {
+        width: 0px;
+        height: 0px;
+        transform: translate(181px, 30px);
+    }
+
+    .menu-btn span {
+        width: 32px;
+    }
+
+    .headerInfo img {
+        width: 100px;
+    }
+
+    .headerWrap {
+        width: 319px;
+    }
+
+    .headerWrap h1 {
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+
+    .headerWrap p {
+        font-size: 16px;
+        padding-bottom:28px ;
+        width: 282px;
+    }
+
+    .findOutMore {
+        padding: 52px 0 0 0;
+    }
+
+    .blockName {
+        width: 520px;
+    }
+    
+    .video img {
+        width: 400px;
+    }
+
+    iframe {
+        width: 320px;
+        height: 196px;
+    }
+
+    .mi {
+        transform: translate(120px, 270px);
+    }
+
+    .navigation_links {
+        margin-left: 113px;
+    }
+
+    .links {
+        width: auto;
+    }
+
+    .center-li {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .menu-btn {
+        transform: translate(155px, 30px);
+    }
+
+    .companyInfo {
+        padding: 0;
+    }
+    .blockName {
+        width: 410px;
+        padding-top: 62px;
+        margin: 0;
+    }
+
+    .blockName h1 {
+        width: auto;
+        font-size: 34px;
+    }
+
+    .card img {
+        width: 106px;
+    }
+    .navigation_links {
+        margin-left: 0px;
+    }
+    .infoSpotlight {
+        width: 395px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .menu-btn {
+        transform: translate(127px, 30px);
+    }
+
+    .blockName {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .menu-btn {
+        transform: translate(105px, 30px);
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .video img {
+        width: 319px;
+    }
+
+    .infoSpotlight {
+        width: 309px;
+    }
+
+    .mi {
+        transform: translate(61px, 224px);
+    }
+}
